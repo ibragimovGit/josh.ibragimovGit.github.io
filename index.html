@@ -1,0 +1,15 @@
+<html>
+<head>
+<title>document</title>
+</head>
+<body>
+<div class='myDiv'></div>
+<script>
+window.onload = function (){randomNum()}
+function randomNum(){
+let randNum = Math.floor(math.random()*19771638);
+document.querySelector('.myDiv').innerHTML = '#' + randNum;
+document.body.style.background = '#' + randNum;
+}
+</body>
+</html>
